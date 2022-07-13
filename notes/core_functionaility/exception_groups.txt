@@ -1,0 +1,6 @@
+python 3.11 - exception groups out in october
+create a group which lists the exceptions you want to capture
+exceptiongroup   except* 
+can then capture many types of exception 
+
+can help a lot when using retries, can change behavour based on several exception types

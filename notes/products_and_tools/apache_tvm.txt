@@ -1,0 +1,6 @@
+Apache TVM
+Automatic tuning of machine learning models for hardware (CPU, GPU, etc)
+can run models on micro-controllers
+Logs performance
+In pre-release
+

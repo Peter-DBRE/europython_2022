@@ -1,0 +1,5 @@
+speaker: Niall O'Connor bank of america
+- uses candle stick 5 data points per day
+- price reverasals, gains or losses will eventually reverse - does the reversal follow the fibonachi sequence
+- source of data- binance github - binance have python libraries
+- plotly to get peaks

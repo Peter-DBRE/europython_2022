@@ -1,0 +1,23 @@
+pytest parameterize - pass test data as parameters - quickly get a lot of test cases and miss edge cases
+
+
+advantages of property based testing
+less amount of code, cleaner test suite
+Generated input data, more domain space
+direct focus on general claim
+better implementation/understanding of requirements
+
+Hypothesis library
+- write and run tests with pytest
+-easy to generate data with strategies and tools
+- finds edge cases
+cons
+difficult to debug when you ahve a large range of inputs
+more difficult to design
+slower to run
+
+
+how does it work with non numerical data
+more common and easier for numberical but possible for non numerical
+
+how to test a given set of inputs create a given set of outputs - ideally in and out of yaml format

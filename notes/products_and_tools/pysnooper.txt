@@ -1,0 +1,13 @@
+debugging tool
+https://pypi.org/project/PySnooper/
+
+import pysnooper
+
+export PYSNOOPER_DISABLED=1 -- disables snooping -and doesn't run trace (noop) when enabled 
+
+
+uses trace 
+prints var names in code, which lines ran and when
+can output to a file
+define it before each function you want to debug
+

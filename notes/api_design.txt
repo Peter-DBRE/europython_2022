@@ -1,0 +1,10 @@
+documentation
+    - quick to read, easy to understand
+simplicity
+consistency
+ - logical variable naming
+completeness
+ - think of common end user requirements
+flexibility
+- dont over complicate each endpoint, it reduces flexibility
+

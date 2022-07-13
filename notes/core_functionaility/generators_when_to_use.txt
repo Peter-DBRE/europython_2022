@@ -1,0 +1,3 @@
+certain loop constructs can be rewritten
+
+itertools - may be useful for batching data for database updates/inserts etc
