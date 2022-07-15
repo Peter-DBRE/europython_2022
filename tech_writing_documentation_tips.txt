@@ -1,0 +1,10 @@
+10 make your end goal clear
+9 dont be overly verbose
+8 inclusive language
+avoid words like simple easy
+7 avoid technical jargon
+6 define all acronyms
+5 avoid memes colloquialisms
+4 use meaningful code samples and variable names
+3 dont make your reader leave your article
+2 make it easy for the reader to find a single piece of information

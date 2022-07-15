@@ -1,0 +1,3 @@
+dont delete old versions
+dependencies as few a possible and not locked
+testpypi to test packages

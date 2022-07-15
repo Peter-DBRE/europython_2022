@@ -1,0 +1,23 @@
+durability
+utility
+beauty
+
+object orientated - keep the paradigm that it's just objects sending messages to each other
+
+clean - for each component, know where it is, what it is and why its in the systemrandom
+
+clean architecture - layered approach: entities -> use cases -> gateways -> external systems
+can only see what has been defined up the chain
+dependencies between components break this, and makes it hard to untangle
+
+use simple structure to move up the chain and interfaces down the chain 
+
+e.g a web framework would be external system
+business logic would fit into use cases
+
+avoid modifying external systems as effort should be on business logic, also makes it hard to replace 3rd party tools/systems
+
+source of data (database) would be in external systems as it doesn't need to know the business logic, it serves data to the business logic
+database interface in gateways
+
+an example is defining a repo outside of the business logic

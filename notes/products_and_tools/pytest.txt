@@ -1,0 +1,18 @@
+
+tests look at the result of a behaviour
+
+test broken down into 4 steps
+arrange - prepare for tests (e.g. spin up a docker DB instance)
+act - kick off the behaviour we want to test
+assert - look at the state change and check it is how we expect
+cleanup - e.e. stop and remove docker DB container
+
+fixtures
+a fixture provides a defined, reliable and consistent context for the tests
+Fixtures define the steps and data that constitute the arrange phase of a test
+They can also be used to define a test’s act phase - technique for more complex tests (potentially useful if pytest-ansible fixtures are used to run tests)
+specify a function is a fixture by adding @pytest.fixture on the preceeding row
+
+pytest ansible extension
+https://github.com/ansible-community/pytest-ansible
+not compatible with latest versions of ansible. Hackathon idea? Can our opensource team update it? https://github.com/ansible-community/pytest-ansible/issues/54

@@ -1,0 +1,21 @@
+lots of initiatives to speed up C python
+differnt interpreters for different data/task focus
+
+biggest win - use the latest python version esp 3.11 (3.13 will but much faster again)
+
+1. avoid global variables, move inside functions where possible (local)
+2. avoid loops - e.g. list compreshension (use generator expression if memory is a concern)
+3. numba - package which we can decorate a function with @jit (works for specific examples only)
+4. import numpy - functions/data structures optimised for numbers (overhead of package import)
+5. dont have to waste time testing criteria before running something, just use try except ...but when the exception is hit it's expensive
+6. 
+generator expression fast consise memory efficient
+for loop good for complex if statement
+
+list comprehension when you neeed a list (but takes time to generate the list)
+filter when you need an iterator
+
+7. creting dictionaries
+dict() vs {}
+literal syntax is faster as no opportunity for overwrite - {} faster
+8. to remove duplicates we can convert to a set (and back again if we need a list) (or use a dictionary if we need ordered, needs to be hashable data)

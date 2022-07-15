@@ -1,0 +1,17 @@
+Black
+--safe (by default) compares the ast to guarantee symantic consistency 
+auto save on exit
+
+isort - sorts imports, useful for not duplicating imports and easier finding exiting imports
+
+flake8 - checks syntax, useful due to python just in time compiling. can create custom linters e.g. for style - could enforce no print statements in code
+
+
+mypi
+
+import linters - define rules for imports
+
+
+
+
+

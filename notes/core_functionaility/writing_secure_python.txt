@@ -1,0 +1,44 @@
+eval() - really dangerous... injection?
+- mainly though it's just bad coding practise - will be a better way to do it
+
+arbirtary code execution with pickle - serialising a pyhthon object to aa sequence of bytes
+when reloading sequence it can run malicious code
+can create a reserse shelll
+avoid by using a digest
+
+pip install
+- typo squatting - becoming more common for malicious pypi libraries to use a similarly named package
+- also packages that are already built into pyhthon
+use --require-hashes
+never download  a package as sudo
+only binary install option
+
+outdated python
+keep updated obvs
+python versions get unsupported after 5 years
+
+deprecated functions
+
+pseudo-randomness
+e.g. for generating passwords
+random python module isn't really random, uses a deterministic seed
+instead use secrets, os.urandom(),
+
+random.systemrandom - this one is truly cryptographcally secure
+
+
+xml pacgage can be insecure
+
+extractall - be careful what you extractall
+
+assert - need to read about this more
+
+
+bandit - looks for insecurity in code
+
+key  points
+1. never trust user input
+2. avoid running python as sudo
+3. updates
+4. read docs - look for warnings
+5. use static code analysis tool
